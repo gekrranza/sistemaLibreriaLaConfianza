@@ -78,7 +78,7 @@ public class login extends javax.swing.JFrame {
         });
         jPanel2.add(btnIniciar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 280, 230, 34));
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 40, 280, 370));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 40, 300, 370));
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 153));
 

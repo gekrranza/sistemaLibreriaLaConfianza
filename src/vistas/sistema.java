@@ -318,7 +318,7 @@ public final class sistema extends javax.swing.JFrame {
 
         btnNuevaVenta.setBackground(new java.awt.Color(153, 153, 153));
         btnNuevaVenta.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnNuevaVenta.setForeground(new java.awt.Color(0, 0, 204));
+        btnNuevaVenta.setForeground(new java.awt.Color(255, 255, 255));
         btnNuevaVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Nventa.png"))); // NOI18N
         btnNuevaVenta.setText("Nueva Venta");
         btnNuevaVenta.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -331,7 +331,7 @@ public final class sistema extends javax.swing.JFrame {
 
         btnClientes.setBackground(new java.awt.Color(153, 153, 153));
         btnClientes.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnClientes.setForeground(new java.awt.Color(0, 0, 204));
+        btnClientes.setForeground(new java.awt.Color(255, 255, 255));
         btnClientes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Clientes.png"))); // NOI18N
         btnClientes.setText("Clientes");
         btnClientes.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -344,7 +344,7 @@ public final class sistema extends javax.swing.JFrame {
 
         btnProveedor.setBackground(new java.awt.Color(153, 153, 153));
         btnProveedor.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnProveedor.setForeground(new java.awt.Color(0, 0, 204));
+        btnProveedor.setForeground(new java.awt.Color(255, 255, 255));
         btnProveedor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/proveedor.png"))); // NOI18N
         btnProveedor.setText("Proveedor");
         btnProveedor.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -357,7 +357,7 @@ public final class sistema extends javax.swing.JFrame {
 
         btnProductos.setBackground(new java.awt.Color(153, 153, 153));
         btnProductos.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnProductos.setForeground(new java.awt.Color(0, 0, 204));
+        btnProductos.setForeground(new java.awt.Color(255, 255, 255));
         btnProductos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/producto.png"))); // NOI18N
         btnProductos.setText("Productos");
         btnProductos.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -375,7 +375,7 @@ public final class sistema extends javax.swing.JFrame {
 
         btnVentas.setBackground(new java.awt.Color(153, 153, 153));
         btnVentas.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnVentas.setForeground(new java.awt.Color(0, 0, 204));
+        btnVentas.setForeground(new java.awt.Color(255, 255, 255));
         btnVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/compras.png"))); // NOI18N
         btnVentas.setText("Ventas");
         btnVentas.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -388,7 +388,7 @@ public final class sistema extends javax.swing.JFrame {
 
         btnConfig.setBackground(new java.awt.Color(153, 153, 153));
         btnConfig.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        btnConfig.setForeground(new java.awt.Color(0, 0, 204));
+        btnConfig.setForeground(new java.awt.Color(255, 255, 255));
         btnConfig.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/config.png"))); // NOI18N
         btnConfig.setText("Config");
         btnConfig.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -408,7 +408,8 @@ public final class sistema extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(153, 153, 153));
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 0, 204));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/usuario.png"))); // NOI18N
         jButton1.setText("Usuarios");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jButton1.setFocusable(false);
@@ -1231,6 +1232,7 @@ public final class sistema extends javax.swing.JFrame {
         });
 
         btnIniciar.setBackground(new java.awt.Color(0, 0, 204));
+        btnIniciar.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         btnIniciar.setForeground(new java.awt.Color(255, 255, 255));
         btnIniciar.setText("Registrar");
         btnIniciar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
