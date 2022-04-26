@@ -5,21 +5,21 @@
  */
 package vistas;
 
-import Modelo.Cliente;
-import Modelo.ClienteDao;
-import Modelo.Combo;
-import Modelo.Config;
-import Modelo.Detalle;
-import Modelo.Eventos;
-import Modelo.LoginDAO;
-import Modelo.Productos;
-import Modelo.ProductosDao;
-import Modelo.Proveedor;
-import Modelo.ProveedorDao;
-import Modelo.Venta;
-import Modelo.VentaDao;
-import Modelo.login;
-import Reportes.Grafico;
+import modelos.Cliente;
+import modelos.ClienteDao;
+import modelos.Combo;
+import modelos.Config;
+import modelos.Detalle;
+import modelos.Eventos;
+import modelos.LoginDAO;
+import modelos.Productos;
+import modelos.ProductosDao;
+import modelos.Proveedor;
+import modelos.ProveedorDao;
+import modelos.Venta;
+import modelos.VentaDao;
+import modelos.login;
+import reporte.Grafico;
 import java.awt.event.KeyEvent;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

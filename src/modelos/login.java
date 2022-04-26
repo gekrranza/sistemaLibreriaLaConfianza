@@ -5,17 +5,17 @@ public class login {
     private int id;
     private String nombre;
     private String correo;
-    private String pass;
+    private String password;
     private String rol;
 
     public login() {
     }
 
-    public login(int id, String nombre, String correo, String pass, String rol) {
+    public login(int id, String nombre, String correo, String password, String rol) {
         this.id = id;
         this.nombre = nombre;
         this.correo = correo;
-        this.pass = pass;
+        this.password = password;
         this.rol = rol;
     }
 
@@ -45,11 +45,11 @@ public class login {
     }
 
     public String getPass() {
-        return pass;
+        return password;
     }
 
     public void setPass(String pass) {
-        this.pass = pass;
+        this.password = pass;
     }
 
     public String getRol() {
