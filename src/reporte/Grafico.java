@@ -18,7 +18,7 @@ public class Grafico {
         PreparedStatement ps;
         ResultSet rs;
         try {
-            String sql = "SELECT total FROM ventas WHERE fecha = ?";
+            String sql = "SELECT total FROM libreria WHERE fecha = ?";
             con = cn.getConnection();
             ps = con.prepareStatement(sql);
             ps.setString(1, fecha);

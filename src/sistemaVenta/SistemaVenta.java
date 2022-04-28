@@ -5,7 +5,7 @@
  */
 package sistemaVenta;
 
-import vistas.login;
+import vistas.Login;
 
 /**
  *
@@ -18,7 +18,7 @@ public class SistemaVenta {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        login lg = new login();
+        Login lg = new Login();
         lg.setVisible(true);
     }
     
